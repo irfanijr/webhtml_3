@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    width: 100%;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+
+
+}
+
+.nav-wrapper {
+    width: 100%;
+    margin-inline: auto;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+
+.nav-link {
+
+    display: none;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    width: 50%;
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
+.content-wrapper {
+    padding-inline: 8px;
+    width: 100%;
+}
+
+.breadcrumbs {
+    font-size: 20px;
+}
+
+.header {
+    font-size: 40px;
+}
+
+
+.bread-link {
+    color: black;
+}
+
+.author {
+    color: red;
+    font-size: 14px;
+}
+
+.tanggal-post {
+    opacity: 50%;
+    font-size: 13px;
+}
+
+.gambar-post {
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+}
+
+.gambar-post {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gambar-kedua {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-block: 20px;
+    margin-top: 50px;
+}
+
+.footer-wrapper {
+    width: 50%;
+    margin-inline: auto;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .nav-wrapper {
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .content-wrapper {
+        padding-inline: 8px;
+    }
+
+    .breadcrumbs {
+        font-size: 14px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .author {
+        font-size: 14px;
+
+    }
+
+    .tanggal-post {
+        font-size: 12px;
+    }
+
+    .gambar-post {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .gambar-kedua {
+        width: 75%;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .content-post {
+        font-size: 14px;
+    }
+
+    .footer-wrapper {
+        width: 100%;
+        font-size: 12px;
+    }
+}
